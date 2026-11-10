@@ -1,0 +1,1 @@
+<div class="error-card"><div class="error-code">404</div><h1>Halaman tidak ditemukan</h1><p>Dokumen atau halaman yang diminta tidak tersedia.</p><a class="btn btn-primary" href="<?= e(url('documents')) ?>">Kembali ke dashboard</a></div>

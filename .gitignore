@@ -1,0 +1,12 @@
+/vendor/
+/.env
+/.idea/
+/.vscode/
+/.phpunit.cache/
+/storage/keys/*.pem
+/storage/logs/*
+!/storage/keys/.gitkeep
+!/storage/logs/.gitkeep
+composer.phar
+.DS_Store
+Thumbs.db

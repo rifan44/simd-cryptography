@@ -1,0 +1,8 @@
+# The application document root must point to /public.
+# This file is a fallback for shared hosting where the project root is exposed.
+Options -Indexes
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(app|bootstrap|config|database|bin|resources|storage|tests|docs)(/|$) - [F,L,NC]
+    RewriteRule ^(\.env|composer\.(json|lock)|README\.md)$ - [F,L,NC]
+</IfModule>

@@ -1,0 +1,1 @@
+<div class="error-card"><div class="error-code">500</div><h1>Terjadi kesalahan</h1><p>Permintaan tidak dapat diproses. Periksa konfigurasi aplikasi atau log server.</p><?php if (!empty($debugMessage)): ?><pre class="debug-box"><?= e($debugMessage) ?></pre><?php endif; ?><a class="btn btn-primary" href="<?= e(url('documents')) ?>">Kembali ke dashboard</a></div>
